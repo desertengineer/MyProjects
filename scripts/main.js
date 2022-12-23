@@ -1,4 +1,12 @@
 var w3 = {};
+w3.getElements = function (id) {
+  if (typeof id == "object") {
+    return [id];
+  } else {
+    return document.querySelectorAll(id);
+  }
+};
+
 w3.slideshow = function (sel, ms, func) {
   var i, ss, x = w3.getElements(sel), l = x.length;
   ss = {};
