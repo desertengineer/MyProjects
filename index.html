@@ -4,31 +4,29 @@
 
 <title>Moulay Bukayrat Projects</title>
 <link rel="icon" href="icons\Moulay_Favicon.ico" type="image/png">
-<link rel="stylesheet" href="css\w3.css"><link rel="stylesheet" href="css\style.css">   
-
-<!--script src="scripts\w3.js">
-</script--><script src="scripts\main.js"></script>
-	<script src="scripts\PageText.js" ></script>
+<link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="css\style.css">  
+<script src="scripts\main.js"></script>  
 </head>
 
 <!-- the page contents-->
 <body> 
 	
-<!-- top navigation-->
-  <div id="top-nav" class="w3-bar w3-deep-purple">
-     <a href="#"> <img id="logo" src="images\me-logo.png" alt="Moulay logo" title="Moulay Bukayrat"/></a> 
-    <a href="#" class="w3-bar-item w3-button">My Projects</a> 
+<!-- top navigation box-->
+  <div id="top-nav" class="w3-bar w3-deep-purple"> 
+     <a id="nav-logo" href="https://wordpress.com/home/engineermoulaybukayrat.com" target="_blank"> <img id="logo" src="images\me-logo.png" alt="Moulay logo" title="Moulay Bukayrat"/></a> 
+    <a id="nav-home" href="#" class="w3-bar-item w3-button"><b>My Projects</b></a> 
     <div id="my-nav-spacer"> </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">Projects Status</button>
+    <div id="nav-menu" class="w3-dropdown-hover">
+      <button id="nav-link" class="w3-button"><b>Projects Status</b></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#" class="w3-bar-item w3-button">Under Development</a>
         <a href="#" class="w3-bar-item w3-button">Ongoing</a>
         <a href="#" class="w3-bar-item w3-button">Completed</a>
       </div>	    
     </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button">Project Sectors</button>
+    <div id="nav-menu"  class="w3-dropdown-hover">
+      <button id="nav-link" class="w3-button"><b>Project Sectors</b></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#" class="w3-bar-item w3-button">Health</a>
         <a href="#" class="w3-bar-item w3-button">Higher Education</a>
@@ -44,13 +42,48 @@
   </div> 	
 <!-- header content-->
 <div id="header"> 
-<!-- my photo and welcome message-->	
-<img src="images\DSC09002 - Copy.JPG" class="w3-circle" alt="Moulay Bukayrat" title="Moulay Bukayrat">
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="img_la.jpg" style="width:100%">
-  <img class="mySlides" src="img_ny.jpg" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-</div>
+  <!-- my photo -->	
+  <img id="moulay-photo" src="images\DSC09002 - Copy.JPG" class="w3-circle" alt="Moulay Bukayrat" title="Moulay Bukayrat"/>
+  <!--  welcome container--> 
+  <div id="welcome-container">
+    <h3>Welcome!</h3>
+    <p id="welcome-msg">Thank you for visiting my projects website. <em>A continuous record of my experience in diverse development and municipal interventions.</em><br><br>
+Your interest and kind time are highly appreciated.<br>Please feel free to contact me for real professional cooperation.
+</p>
+    <a href="https://wordpress.com/home/engineermoulaybukayrat.com" target="_blank"><img id="moulay-decorative" src="images\Moulay Bukayrat En.png" /></a>
+  </div>
+  <!-- Projects slideshow-->	  
+  <div w3-include-html="elements\SliderImges.html" id="pjcts-slider" class="w3-content w3-section" style="max-width:500px">
+    <!--img class="mySlides" src="images\At_Work-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\higher_education-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\renewable_energy-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-05.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\primary_education-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-04.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\health-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\social-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\transportation-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\recreation-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-06.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\economy-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\higher_education-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-07.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\renewable_energy-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\municipal_services-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-03.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\primary_education-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\health-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\municipal_services-01.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\social-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\transportation-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\At_Work-08.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\recreation-02.jpg" style="width:100%"/>
+    <img class="mySlides" src="images\economy-02.jpg" style="width:100%"/-->
+<script>w3.includeHTML();</script>
+<!--carousel script-->
+<script>w3.slideshow(".mySlides", 3000);</script>
+  </div>
 
 </div>
 <!-- main cover-->
@@ -58,7 +91,6 @@
 <div id="cover-left"><h3 id="main-heading">h3</h3><p id="main-paragraph" >p</p></div>
 <div id="cover-right"><img id="main-image"  src="#" width="500" /></div>
 </div>
-<!--c-->
 
 
 </body>

@@ -1,9 +1,33 @@
-body {margin:30px;}
-#logo {width: 180px; height:60px; margin:15px;}
+body {background-color:beige;}
 #top-nav{display: flex;}
-#my-nav-spacer {width: 180px; margin:15px;}
-#header {display: flex;}
-h1{ }
+#nav-logo{margin: 0 15px;}
+#logo {width: 210px;height:70px;margin: 5px;}
+#nav-home{
+          display: flex;
+          background-color:#2a55a2;
+          color:#f3ff04;
+          padding: 15px 16px;
+          margin: 5px;
+          letter-spacing:1.2px;
+          word-spacing:normal;
+          line-height: 1;
+          align-items: center;
+          }
+#nav-menu{margin: 5 10px;display: block;}
+#nav-link{padding: 15px 16px;margin:5px;font-size: large;color: beige;letter-spacing:1.2px;word-spacing:normal;line-height: 1;}
+#my-nav-spacer {width: 180px;margin: 5px;}
+
+#header {height: 320px;margin: 11px 48px;display: flex;background-color: black;}
+#moulay-photo{height:200px;margin:auto 30px;}
+#welcome-container{background-color:beige;margin:30px 10px;padding:15px;width: 500px;height:275px;}
+#welcome-container h3{color:blue;font-weight:bold;margin:15px;}
+#welcome-msg {color:#1f2129;}
+em {color: hsl(240deg 100% 66%);font-weight:500;}
+#moulay-decorative{height:50px;}
+#pjcts-slider{ padding:5 0px; vertical-align: middle;}
+.mySlides{max-height:280px;}
 label { display: block; margin-left: auto; font: 1rem 'Fira Sans', sans-serif;}
 input, label {margin: .4rem 0;}
-img{height: 600px;}
+img{
+    /* margin: 0 0  7px; */
+}
