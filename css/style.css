@@ -1,5 +1,6 @@
 body {margin:30px;}
 #logo {width: 180px; margin:15px;}
+#my-nav-spacer {width: 180px; margin:15px;}
 #header {display: flex;}
 h1{ }
 label { display: block; margin-left: auto; font: 1rem 'Fira Sans', sans-serif;}
