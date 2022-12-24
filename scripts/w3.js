@@ -30,7 +30,7 @@ w3.showElement = function (element) {
 w3.addStyle = function (sel, prop, val) {
   w3.styleElements(w3.getElements(sel), prop, val);
 };
-w3.styleElements = function (elements, prop, val) {
+w3.styleElement = function (elements, prop, val) {
   var i, l = elements.length;
   for (i = 0; i < l; i++) {    
     w3.styleElement(elements[i], prop, val);
@@ -223,7 +223,7 @@ w3.slideshow = function (sel, ms, func) {
     ss.start();
   };
   ss.display = function (n) {
-    w3.styleElements(ss.x, "display", "none");
+    w3.styleElement(ss.x, "display", "none");
     w3.styleElement(ss.x[n - 1], "display", "block");
   }
   ss.start();
