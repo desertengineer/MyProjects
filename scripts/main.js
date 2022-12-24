@@ -37,7 +37,7 @@ w3.slideshow = function (sel, ms, func) {
     ss.start();
   };
   ss.display = function (n) {
-    w3.styleElements(ss.x, "display", "none");
+    w3.styleElement(ss.x, "display", "none");
     w3.styleElement(ss.x[n - 1], "display", "block");
   }
   ss.start();
