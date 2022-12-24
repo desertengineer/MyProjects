@@ -14,7 +14,7 @@ body {background-color:beige;}
           align-items: center;
           }
 #nav-menu{margin: 5 10px;display: block;}
-#nav-link{padding: 15px 16px;margin:5px;font-size: large;color: beige;letter-spacing:1.2px;word-spacing:normal;line-height: 1;}
+#nav-link{padding: 27px 16px;margin:5px;font-size: large;color: beige;letter-spacing:1.2px;word-spacing:normal;line-height: 1;}
 #my-nav-spacer {width: 180px;margin: 5px;}
 
 #header {height: 320px;margin: 11px 48px;display: flex;background-color: black;}
