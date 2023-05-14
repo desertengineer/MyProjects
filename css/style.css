@@ -11,7 +11,7 @@ title{text-transform:capitalize;}
 #nav-home b {margin: 0 auto 0 0;}  
 #infographic b{margin: 0 auto;} 
 .fa-home{color:#C2185B;margin:0 5px;}
-.w3-button {padding: 19px 20px;margin: 0 15px;}
+.w3-button {padding: 19px 20px;}
 .w3-button:hover {color: var(--blue2);background-color: yellow;}
 .w3-dropdown-hover {color: var(--blue2);background-color: yellow;}
 #top-nav .search-container {float: right;} 
