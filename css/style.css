@@ -10,7 +10,8 @@ title{text-transform:capitalize;}
 #infographic b{margin: 0 auto;} 
 .fa-home{color:#C2185B;margin:0 5px;}
 .w3-button {padding: 19px 20px;margin: 0 15px;}
-.w3-dropdown-hover {/* margin:auto 0; */}
+.w3-dropdown-hover {}
+button .w3-bar-item.w3-button.w3-mobile {margin:0;}
 #top-nav .search-container {float: right;} 
 #top-nav input[type=text] {padding: 6px;margin: 12px 0 13px;font-size: 14px;border: none;} 
 #top-nav .search-container button {float: right;padding: 6px 10px;margin: 12px 0;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
