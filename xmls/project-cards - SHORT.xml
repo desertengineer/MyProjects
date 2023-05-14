@@ -1,0 +1,255 @@
+<MyProjects>
+		<Project>
+		<ID>NLTC</ID>
+		<title>SFL</title>
+		<visualization>"gifs/nltc.gif"</visualization>
+		<location>Ubari, libya</location>
+		<beneficiaries>100,000 Citizens</beneficiaries>
+		<capacity>400 students</capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser>Municipality of Ubari</enduser>
+		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_logo>images\Awbari1.jpg</enduser_logo>
+		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
+		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
+		<sdg2img>"images\sdgs\sdg 6.jpeg"</sdg2img>
+		<sdg2alt>"Sustainable Development Goal 6"</sdg2alt>
+		<sdg3img>"images\sdgs\sdg 17.png"</sdg3img>
+		<sdg3alt>"Sustainable Development Goal 17"</sdg3alt>
+		<client>UNDP Libya</client>
+		<client_link>"https://www.undp.org/libya"</client_link>
+		<client_logo>"images\undp.jpeg"</client_logo>
+		<client_alt>"United Nations Development Programme"</client_alt>
+	</Project>
+	<Project>
+		<ID>Airport</ID>
+		<title>Rehabilitation of Ubari Civil Airport s taxiway and aircraft standing area</title>
+		<visualization>../gifs/Airport.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>100,000 Citizens</beneficiaries>
+		<capacity></capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>SolPower</ID>
+		<title>Supply and installation of 2 LOT Solar Power System in Municipality of Bent Baya</title>
+		<visualization>../gifs/SolPower.gif</visualization>
+		<location>Bent Baya, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity>60 Beds</capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>PriSch01</ID>
+		<title>Rehabilitation of Ubari, Municipality of Ubari Primary School</title>
+		<visualization>../gifs/PriSch01.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity>360 Pupils</capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>PriSch02</ID>
+		<title>Rehabilitation of Aquba Ben Nafaa School </title>
+		<visualization>../gifs/PriSch02.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity>120 Pupils</capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>PriSch03</ID>
+		<title>Rehabilitation of Disa School</title>
+		<visualization>../gifs/PriSch03.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity>300 Pupils</capacity>
+		<time>2021-2021</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>PriSch04</ID>
+		<title>Rehabilitation of Gil Saade School</title>
+		<visualization>../gifs/PriSch04.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity>240 Pupils</capacity>
+		<time>2021-2021</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>RndAbout</ID>
+		<title>Rehabilitation of Ubari Main Entrance Roundabout</title>
+		<visualization>../gifs/RndAbout.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity></capacity>
+		<time>2021-2021</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>Recr01</ID>
+		<title>Rehabilitation of Al Gurdhabia School - External Works</title>
+		<visualization>../gifs/Recr01.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity></capacity>
+		<time>2021-2021</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>Oxygen</ID>
+		<title>Supply and Installation of Medical Oxygen Generator Plant for COVID-19 in Municipality of Bent Baya</title>
+		<visualization>../gifs/Oxygen.gif</visualization>
+		<location>Bent Baya, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity></capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+	<Project>
+		<ID>Recr02</ID>
+		<title>Rehabilitation of Soccer Fields at Gil Saade and Al-Disa Primary Schools</title>
+		<visualization>../gifs/Recr02.gif</visualization>
+		<location>Ubari, Libya</location>
+		<beneficiaries>30,000 Citizens</beneficiaries>
+		<capacity></capacity>
+		<time>2021-2022</time>
+		<status>Completed</status>
+		<enduser></enduser>
+		<enduser_link></enduser_link>
+		<enduser_logo></enduser_logo>
+		<sdg1img></sdg1img>
+		<sdg1alt></sdg1alt>
+		<sdg2img></sdg2img>
+		<sdg2alt></sdg2alt>
+		<sdg3img></sdg3img>
+		<sdg3alt></sdg3alt>
+		<client></client>
+		<client_link></client_link>
+		<client_logo></client_logo>
+		<client_alt></client_alt>
+	</Project>
+</MyProjects>
