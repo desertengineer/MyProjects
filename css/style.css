@@ -1,5 +1,3 @@
-:root {--blue2: #0f0fd4;--yellow: #ffffff;}
-div#all-doc {padding: .1em 20px;}
 body {background-color:beige;}
 title{text-transform:capitalize;}
 #top-nav {display: flex;}
@@ -11,9 +9,8 @@ title{text-transform:capitalize;}
 #nav-home b {margin: 0 auto 0 0;}  
 #infographic b{margin: 0 auto;} 
 .fa-home{color:#C2185B;margin:0 5px;}
-.w3-button {padding: 19px 20px;}
-.w3-button:hover {color: var(--blue2);background-color: yellow;}
-.w3-dropdown-hover {color: var(--blue2);background-color: yellow;}
+.w3-button {padding: 19px 20px;margin: 0 15px;}
+.w3-dropdown-hover {/* margin:auto 0; */}
 #top-nav .search-container {float: right;} 
 #top-nav input[type=text] {padding: 6px;margin: 12px 0 13px;font-size: 14px;border: none;} 
 #top-nav .search-container button {float: right;padding: 6px 10px;margin: 12px 0;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
@@ -45,8 +42,7 @@ em {color: hsl(122deg 100% 32%);font-weight:500;}
 #footer-box div h4 {padding:0px;margin: 0;text-decoration: underline;}
 #footer-mid1 a:hover ,#footer-mid2 a:hover {color: #ab0b0b!important;background-color: #d3d848!important;}
 #footer-mid1,#footer-mid2,#footer-mid3,#footer-right {flex-direction:column;}
-div#attrib1 {}
-div#attrib1{display:flex;padding: 0px;margin-bottom: 10px;;justify-content: space-around;}
+#attrib1{display:flex;padding: 0px;max-height: 64px;justify-content: space-around;}
 #attrib1 strong {margin-right:5px; text-transform:capitalize;}
 #attrib1 div {margin:0 10px;}
 .attrib-p {margin:auto 0;}
