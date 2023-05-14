@@ -1,4 +1,4 @@
-body {background-color:beige;}
+body {background-color:beige;margin:5px 25px 15px;}
 title{text-transform:capitalize;}
 #top-nav {display: flex;}
 #nav-logo{margin: 0;padding: 0 16px 0 0;}
@@ -43,9 +43,9 @@ em {color: hsl(122deg 100% 32%);font-weight:500;}
 #footer-box div h4 {padding:0px;margin: 0;text-decoration: underline;}
 #footer-mid1 a:hover ,#footer-mid2 a:hover {color: #ab0b0b!important;background-color: #d3d848!important;}
 #footer-mid1,#footer-mid2,#footer-mid3,#footer-right {flex-direction:column;}
-#attrib1{display:flex;padding: 0px;max-height: 64px;justify-content: space-around;}
+#attrib1{display:flex;padding: 0px;justify-content: space-around;}
 #attrib1 strong {margin-right:5px; text-transform:capitalize;}
-#attrib1 div {margin:0 10px;}
+#attrib1 div {margin: 5px 10px;}
 .attrib-p {margin:auto 0;}
 #attrib1 img {margin-left: 17px;}
 #github-logo{max-height:55px;}
