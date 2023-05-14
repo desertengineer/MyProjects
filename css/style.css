@@ -13,12 +13,7 @@ title{text-transform:capitalize;}
 .fa-home{color:#C2185B;margin:0 5px;}
 .w3-button {padding: 19px 20px;margin: 0 15px;}
 .w3-button:hover {color: var(--blue2);background-color: yellow;}
-
-
-
-
-
-.w3-dropdown-hover {color: #0f0fd4;background-color: yellow;}
+.w3-dropdown-hover {color: var(--blue2);background-color: yellow;}
 #top-nav .search-container {float: right;} 
 #top-nav input[type=text] {padding: 6px;margin: 12px 0 13px;font-size: 14px;border: none;} 
 #top-nav .search-container button {float: right;padding: 6px 10px;margin: 12px 0;margin-right: 16px;background: #ddd;font-size: 17px;border: none;cursor: pointer;}
