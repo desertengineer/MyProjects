@@ -23,7 +23,7 @@ a href::after {content: ' target="_blanck"';}
 #welcome-container{background-color:beige;margin: 30px 10px 30px 118px;padding:15px;width: 500px;/* height:275px; */position: relative;}
 #welcome-container h3{color:blue;font-weight:bold;margin:15px;}
 #welcome-msg {color: #101110;}
-em {color: hsl(122deg 100% 32%);font-weight:500;}
+em {color: hsl(216deg 90.48% 41.67%);font-weight:500;}
 #moulay-decorative{height:50px;}
 #pjcts-slider{/*padding:5px 0;vertical-align: middle;display:block;*/margin-top: 57px;}
 /*div .mySlides.fade img {width: 100%; height:auto; }*/

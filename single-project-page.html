@@ -12,7 +12,7 @@
       <script src="scripts\main.js"></script>
   </head>
   <!-- the page contents-->
-  <body onload="transform('xmls/project-cards.xml', 'xmls/project-cards.xsl')">
+  <body>
         <div id="all-doc" class="w3-container w3-mobile"> 
             <!-- top navigation box-->
             <div my-include-html="elements/top-nav.html" id="top-nav" class="w3-bar w3-brown w3-large w3-row">
@@ -28,7 +28,7 @@
                 <div id="pjcts-gal" my-include-html="projects-page.html"></div>
             </div>
             <!-- project information area-->
-            <div id="pjct-card">
+            <div my-include-html="elements\pjct-card.html" id="pjct-card">
                 <!--h3 id="pjct-ttl">Rehabilitation of Ubari University of Arts and Science</h3>
                 <div id="project-cover" class="w3-row">
                     <div id="project-visual" class="w3-col s4 w3-green w3-center w3-container">

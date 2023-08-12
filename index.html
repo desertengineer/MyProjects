@@ -15,7 +15,7 @@
   <body>
       <div id="all-doc" class="w3-container w3-mobile">
           <!-- top navigation box-->
-          <div my-include-html="elements/top-nav.html" id="top-nav" class="w3-bar w3-brown w3-large w3-row">
+          <div includeElement="elements/top-nav.html" id="top-nav" class="w3-bar w3-brown w3-large w3-row">
           </div>
           <!-- header content-->
           <div id="header" class="w3-row w3-col w3-black w3-container">
@@ -31,123 +31,17 @@
                       <br><br>
                       Your interest and kind time are highly appreciated.<br>Please feel free to contact me for real professional cooperation.
                   </p>
-                  <a href="https://wordpress.com/home/engineermoulaybukayrat.com" target="_blank">
+                  <a href="https://engineermoulaybukayrat.wordpress.com/" target="_blank">
                       <img id="moulay-decorative" src="images\Moulay Bukayrat En.png" />
                   </a>
               </div>
               <!-- Projects slideshow-->
-              <div id="pjcts-slider" class="slideshow-container w3-content w3-center">
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\higher_education-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\renewable_energy-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-05.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\primary_education-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-04.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\health-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\social-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\transportation-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\recreation-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-06.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\economy-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\higher_education-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-07.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\renewable_energy-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\municipal_services-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\At_Work-03.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\primary_education-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\health-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\municipal_services-01.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\social-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\transportation-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">                      
-                      <img src="images/At_Work-08.JPG" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\recreation-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <div class="mySlides fade">
-                      <img src="images\economy-02.jpg" style="width:100%">
-                      <p class="slide-text">Caption Text</p>
-                  </div>
-                  <!--carousel script-->
-                  <script src="scripts\mySlides.js"></script>
+              <div id="pjcts-slider" includeElement="elements\SliderImges.html" class="slideshow-container w3-content w3-center">
               </div>
           </div>
           <!-- main cover-->
           <div id="main-wraper" class="w3-grey w3-container">
-              <h4 id="my-media" class="w3-center accordion">My projects media</h4>
+              <h4 id="my-media" class="w3-center accordion" title="Click to Expand">My projects media</h4>
               <div class="panel">
                   <div id="main-box" class="w3-row w3-grey w3-container">
                       <div id="main-left" class="w3-col s4 w3-container">
@@ -158,8 +52,7 @@
                       </div>
                   </div>
               </div>
-          </div>
-          <script>Accordion();</script>
+          </div> 
           <!-- Changing page content-->
           <div id="nav-page">
               <em>
@@ -168,14 +61,15 @@
               <em>
                   <h3 id="no-pjcts-msg"></h3>
               </em>
-              <div id="pjcts-gal" my-include-html="projects-page.html"></div>
+              <div id="pjcts-gal"></div> <!--includeElement="projects-page.html"-->
           </div>
 
           <!-- footer area-->
-          <div my-include-html="elements\index-footer.html" id="footer-box" class="w3-bar w3-indigo w3-container"></div>
+          <div includeElement="elements\index-footer.html" id="footer-box" class="w3-bar w3-indigo w3-container"></div>
           <!-- attribution area-->
-          <div my-include-html="elements\index-attrib1.html" id="attrib1" class="w3-bar w3-grey w3-container w3-center"></div>
+          <div includeElement="elements\index-attrib1.html" id="attrib1" class="w3-bar w3-grey w3-container w3-center"></div>
       </div>  
-      <script>MyincludeHTML();</script> 
+        <script src="scripts\mySlides.js"></script>
+        <script>includeHTML();Accordion();</script> 
   </body>
 </html> 

@@ -1,6 +1,6 @@
 .mySlides {display: block; float:right;}
-.mySlides img {vertical-align: middle;max-height: 313px;}
-.mySlides p {/* display: none; */}
+.mySlides img {vertical-align: middle;max-height: 313px; width:100%;}
+.mySlides p {font-style: italic;}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
