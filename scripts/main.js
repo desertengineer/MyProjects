@@ -36,6 +36,49 @@ fetchData=function (file) {
       //div.innerHTML=sessionStorage.filelData;
     });   
 }  
+function loadXMLDoc(filename)
+{
+if (window.ActiveXObject)
+  {
+  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  }
+else
+  {
+  xhttp = new XMLHttpRequest();
+  }
+xhttp.open("GET", filename, false);
+try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult(elem,xmlFile,xslFile,elemId)
+{ 
+  var title=elem.innerHTML;
+  const page = document.getElementById("nav-page");
+  const header =document.getElementById("header");
+  const mediaMain= document.getElementById("main-wraper");
+  w3.styleElement(header, 'display', "none");
+  w3.styleElement(mediaMain, 'display', "none");
+  xml = loadXMLDoc(xmlFile);
+  xsl = loadXMLDoc(xslFile);
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById(elemId).innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById(elemId).appendChild(resultDocument);
+  }
+  document.querySelector('h1#sector-title').innerHTML= title; 
+  w3.styleElement(page, 'display', "block");
+} 
 function showSlides() {  
   const header =document.getElementById("header");
   if (header.style.display != "none") {
@@ -70,15 +113,15 @@ for (i = 0; i < acc.length; i++) {
  }
 // to display requested page
 getNavLink=function (elem, sector) { 
+  const page = document.getElementById("nav-page");
+const header =document.getElementById("header");
+const mediaMain= document.getElementById("main-wraper");
     var myFile = "projects-page.html";  
     var myDiv=document.getElementById("pjcts-gal");
     fetchData(myFile);
     myDiv.innerHTML=sessionStorage.filelData; 
      var title=elem.innerHTML;
     console.log(sector);
-    const page = document.getElementById("nav-page");
-    const header =document.getElementById("header");
-    const mediaMain= document.getElementById("main-wraper");
     //if (header) {document.getElementById("all-doc").removeChild(header);}
     w3.styleElement(header, 'display', "none");
     if (mediaMain) {document.getElementById("all-doc").removeChild(mediaMain);}
@@ -151,12 +194,10 @@ w3.getElements = function (id)
     if (c == "all") c = "";
     // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
     for (i = 0; i < x.length; i++) {
-      w3RemoveClass(x[i],"show");
-      //x[i].style.display="none";
+      w3RemoveClass(x[i],"show"); 
       msg.innerHTML="";
       if (x[i].className.indexOf(c) > -1) {
-        w3AddClass(x[i],"show");
-        //x[i].style.display="table-cell";
+        w3AddClass(x[i],"show"); 
         j++;console.log(j);}      
     }
     console.log(" filter end");

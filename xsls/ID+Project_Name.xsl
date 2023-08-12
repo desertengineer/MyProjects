@@ -3,7 +3,7 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
-   <link rel="stylesheet" href="css/myW3.css"/>
+   <link rel="stylesheet" href="myW3.css"/>
   <body style=" margin:50">
  
   <h2 class="w3-green">My Projects</h2>
