@@ -52,33 +52,102 @@ xhttp.send("");
 return xhttp.responseXML;
 }
 
-function displayResult(elem,xmlFile,xslFile,elemId)
-{ 
+function transformXsl(xmlFile,xslFile,elemId,param1){ 
+   document.querySelector('h1#sector-title').innerHTML="";
+  document.getElementById(elemId).innerHTML= "";
+  xml = loadXMLDoc(xmlFile);
+  //console.log(xml);
+  xsl = loadXMLDoc(xslFile);
+  
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+    var template = new ActiveXObject('Msxml2.XslTemplate');
+    template.stylesheet = xslt;
+    var proc = template.createProcessor();
+    proc.input = xml;
+    proc.addParameter('projectId', param1);
+    proc.transform();
+    document.getElementById(elemId).innerHTML = proc.output;
+
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (typeof XSLTProcessor !== 'undefined')
+  {
+  var xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl); 
+  xsltProcessor.setParameter(null, "projectId", param1);  
+  var resultFragment = xsltProcessor.transformToFragment(xml, document);   
+  document.getElementById(elemId).appendChild(resultFragment);
+  }
+} 
+// to display requested page
+getNavLink=function (elem, sector) { 
   var title=elem.innerHTML;
   const page = document.getElementById("nav-page");
   const header =document.getElementById("header");
   const mediaMain= document.getElementById("main-wraper");
   w3.styleElement(header, 'display', "none");
   w3.styleElement(mediaMain, 'display', "none");
-  xml = loadXMLDoc(xmlFile);
-  xsl = loadXMLDoc(xslFile);
-// code for IE
-if (window.ActiveXObject || xhttp.responseType == "msxml-document")
-  {
-  ex = xml.transformNode(xsl);
-  document.getElementById(elemId).innerHTML = ex;
-  }
-// code for Chrome, Firefox, Opera, etc.
-else if (document.implementation && document.implementation.createDocument)
-  {
-  xsltProcessor = new XSLTProcessor();
-  xsltProcessor.importStylesheet(xsl);
-  resultDocument = xsltProcessor.transformToFragment(xml, document);
-  document.getElementById(elemId).appendChild(resultDocument);
-  }
-  document.querySelector('h1#sector-title').innerHTML= title; 
-  w3.styleElement(page, 'display', "block");
+  var xmlFile="xmls/ProjectsGallery.xml";
+  var xslFile="xsls/ProjectsGallery.xsl";
+  var elemId="pjcts-gal";
+  transformXsl(xmlFile,xslFile,elemId,'');
+  document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
+  w3.styleElement(page, 'display', "block"); 
+        filterSelection(sector); 
+        //displayProject();  
 } 
+
+displayProject = function (elem) {
+  //var id = location.search.substring(1); 
+          sessionStorage.project = elem.id;
+          console.log(elem.id);
+          var xmlFile="xmls/project-card.xml";
+          var xslFile="xsls/project-card.xsl";
+          var elemId="pjcts-gal"; 
+          transformXsl(xmlFile,xslFile,elemId,elem.id);
+  setTimeout(document.getElementById(elemId).appendChild(resultDocument),2000);
+          document.querySelector('h1#sector-title').innerHTML= ""; 
+    /*var div = document.getElementById("pjcts-gal");
+          document.querySelectorAll('#pjcts-gal a').forEach(occurence => {
+          occurence.addEventListener('click', (e) => {
+          let elementId = e.target.parentElement.id;
+          console.log(elementId);          
+        fetchData("xmls/project-cards.xml");
+        var xmlText = sessionStorage.filelData; 
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                //populateElems(this,elementId);
+            }
+        };
+        xmlhttp.open("GET", "xmls/project-cards.xml", true);
+        xmlhttp.send();  
+          });
+        });    */
+}  
+function populateElems(xml,elementId) {
+          var xmlDoc = xml.responseXML;     
+          var elemsCount =xmlDoc.querySelectorAll('Project').length-1;
+          for (let index = 0; index < elemsCount; index++) {
+            //console.log(xmlDoc.childNodes[0].childNodes[index].textContent);
+            if (xmlDoc.querySelectorAll('Project')[index].childNodes[1].textContent==elementId) { 
+              var myPjct=xmlDoc.querySelectorAll('Project')[index]; 
+              var file = "elements/pjct-card.html";  
+            var div = document.getElementById("pjcts-gal");
+          console.log("Hello");
+              fetchData(file);
+              div.innerHTML = sessionStorage.filelData; 
+              for (let pjctChild = 1; pjctChild < myPjct.childNodes.length; pjctChild+=2) { 
+               console.log( myPjct.childNodes[pjctChild].textContent);
+                
+              }
+              break;
+            }            
+          }   
+}
+
 function showSlides() {  
   const header =document.getElementById("header");
   if (header.style.display != "none") {
@@ -111,67 +180,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
  }
-// to display requested page
-getNavLink=function (elem, sector) { 
-  const page = document.getElementById("nav-page");
-const header =document.getElementById("header");
-const mediaMain= document.getElementById("main-wraper");
-    var myFile = "projects-page.html";  
-    var myDiv=document.getElementById("pjcts-gal");
-    fetchData(myFile);
-    myDiv.innerHTML=sessionStorage.filelData; 
-     var title=elem.innerHTML;
-    console.log(sector);
-    //if (header) {document.getElementById("all-doc").removeChild(header);}
-    w3.styleElement(header, 'display', "none");
-    if (mediaMain) {document.getElementById("all-doc").removeChild(mediaMain);}
-        w3.styleElement(page, 'display', "block");
-        document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
-        filterSelection(sector); 
-        //displayProject();  
-} 
-displayProject = function () {
-  //var id = location.search.substring(1); 
-    var div = document.getElementById("pjcts-gal");
-          console.log("Hello");
-          document.querySelectorAll('#pjcts-gal a').forEach(occurence => {
-          occurence.addEventListener('click', (e) => {
-          let elementId = e.target.parentElement.id;
-          console.log(elementId);          
-        /*fetchData("xmls/project-cards.xml");
-        var xmlText = sessionStorage.filelData; */ 
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                //populateElems(this,elementId);
-            }
-        };
-        xmlhttp.open("GET", "xmls/project-cards.xml", true);
-        xmlhttp.send();  
-          });
-        });    
-}  
-function populateElems(xml,elementId) {
-          var xmlDoc = xml.responseXML;     
-          var elemsCount =xmlDoc.querySelectorAll('Project').length-1;
-          for (let index = 0; index < elemsCount; index++) {
-            //console.log(xmlDoc.childNodes[0].childNodes[index].textContent);
-            if (xmlDoc.querySelectorAll('Project')[index].childNodes[1].textContent==elementId) { 
-              var myPjct=xmlDoc.querySelectorAll('Project')[index]; 
-              var file = "elements/pjct-card.html";  
-            var div = document.getElementById("pjcts-gal");
-          console.log("Hello");
-              fetchData(file);
-              div.innerHTML = sessionStorage.filelData; 
-              for (let pjctChild = 1; pjctChild < myPjct.childNodes.length; pjctChild+=2) { 
-               console.log( myPjct.childNodes[pjctChild].textContent);
-                
-              }
-              break;
-            }            
-          }   
-}
-
 var w3 = {};
 w3.styleElements = function (elements, prop, val) {
   var i, l = elements.length;
@@ -189,7 +197,7 @@ w3.getElements = function (id)
   function filterSelection(c) { 
     var x, i,j=0;
     x = document.getElementsByClassName("pjct");
-    console.log(c);
+    //console.log(c);
     const msg=document.getElementById("no-pjcts-msg");
     if (c == "all") c = "";
     // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
@@ -198,7 +206,7 @@ w3.getElements = function (id)
       msg.innerHTML="";
       if (x[i].className.indexOf(c) > -1) {
         w3AddClass(x[i],"show"); 
-        j++;console.log(j);}      
+        j++;}      
     }
     console.log(" filter end");
       if (j==0) {
