@@ -48,7 +48,7 @@ else
   }
 xhttp.open("GET", filename, false);
 try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-xhttp.send("");
+xhttp.send();
 return xhttp.responseXML;
 }
 
