@@ -89,8 +89,8 @@ getNavLink=function (elem, sector) {
   const mediaMain= document.getElementById("main-wraper");
   w3.styleElement(header, 'display', "none");
   w3.styleElement(mediaMain, 'display', "none");
-  var xmlFile="../xmls/ProjectsGallery.xml";
-  var xslFile="../xsls/ProjectsGallery.xsl";
+  var xmlFile="https://desertengineer.github.io/MyProjects/xmls/ProjectsGallery.xml";
+  var xslFile="https://desertengineer.github.io/MyProjects/xsls/ProjectsGallery.xsl";
   var elemId="pjcts-gal";
   transformXsl(xmlFile,xslFile,elemId,'');
   document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
