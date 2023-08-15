@@ -51,14 +51,64 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         </a>
                     </div>
                     <div id="sdg-icons" class="w3-row w3-container">
-                        <img src="images\sdgs\sdg 4.png" alt="Sustainable Development Goal 4" class="sdg"/>
-                        <img src="images\sdgs\sdg 6.jpeg" alt="Sustainable Development Goal 6" class="sdg"/>
-                        <img src="images\sdgs\sdg 17.png" alt="Sustainable Development Goal 17" class="sdg"/>
+                        <img>
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="Project/sdg1img"/>
+                        </xsl:attribute> 
+                        <xsl:attribute name="title">
+                            <xsl:value-of select="Project/sdg1alt"/>
+                        </xsl:attribute>           
+                        <xsl:attribute name="class">
+                            <xsl:text>sdg</xsl:text>
+                        </xsl:attribute> 
+                    </img>
+                    <img>
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="Project/sdg2img"/>
+                    </xsl:attribute> 
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="Project/sdg2alt"/>
+                    </xsl:attribute>           
+                    <xsl:attribute name="class">
+                        <xsl:text>sdg</xsl:text>
+                    </xsl:attribute> 
+                </img>
+                <img>
+                <xsl:attribute name="src">
+                    <xsl:value-of select="Project/sdg3img"/>
+                </xsl:attribute> 
+                <xsl:attribute name="title">
+                    <xsl:value-of select="Project/sdg3alt"/>
+                </xsl:attribute>           
+                <xsl:attribute name="class">
+                    <xsl:text>sdg</xsl:text>
+                </xsl:attribute> 
+            </img>
                     </div>
                     <div id="client" class="w3-row w3-container">
-                        <p><b>Client:</b><pre> UNDP Libya </pre></p>
-                        <a class="w3-mobile" href="https://www.undp.org/libya" target="_blank" title="UNDP Libya">
-                            <img src="images\undp.jpeg" alt="United Nations Development Programme"/>
+                        <p><b>Client:</b><pre> <xsl:value-of select="Project/clientAlt"/> </pre></p>
+                        <a  href="https://www.undp.org/libya" target="_blank" title="UNDP Libya">                        
+                            <xsl:attribute name="class">
+                                <xsl:text>w3-mobile</xsl:text>
+                            </xsl:attribute>                           
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="Project/clientHref"/>
+                            </xsl:attribute>                           
+                            <xsl:attribute name="target">
+                                <xsl:text>_blank</xsl:text>
+                            </xsl:attribute>                           
+                            <xsl:attribute name="title">
+                                <xsl:value-of select="Project/clientAlt"/>
+                            </xsl:attribute>
+
+                            <img>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="Project/clientLogo"/>
+                                </xsl:attribute> 
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of select="Project/clientAlt"/>
+                                </xsl:attribute> 
+                            </img> 
                         </a>
                     </div>
                   </div>  

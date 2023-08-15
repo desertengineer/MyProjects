@@ -22,7 +22,7 @@
 #pjct-footer {display:flex;text-transform:capitalize;background-color: white;}
 #end-user{display:flex;margin: 5px 45px;}
 #end-user p, #client p{margin:auto 0px;}
-#end-user pre, #client pre{margin:auto 8px;}
+#end-user pre, #client pre{margin: auto -37px;}
 #sdg-icons{display:flex;margin: 5px auto;}
 #pjct-footer img{width:100px;height:100px;margin:0 15px; }
 #client{display:flex;margin: 5px 45px;}
