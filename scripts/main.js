@@ -59,12 +59,9 @@ function loadXMLDoc(filename)
 return xhttp.responseXML;
 }
 
-function transformXsl(xmlFile,xslFile,elemId){  
+function transformXsl(xml,xsl,elemId){  
    document.querySelector('h1#sector-title').innerHTML="";
   document.getElementById(elemId).innerHTML= "";
-  xml = loadXMLDoc(xmlFile);
-  //console.log(xml);
-  xsl = loadXMLDoc(xslFile);
   
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
@@ -82,7 +79,8 @@ else if (document.implementation && document.implementation.createDocument)
     document.getElementById(elemId).appendChild(resultDocument);
   }
 } 
-// to display requested page
+// to display requested pages
+
 getNavLink=function (elem, sector) { 
   var title=elem.innerHTML;
   const page = document.getElementById("nav-page");
@@ -93,7 +91,9 @@ getNavLink=function (elem, sector) {
   var xmlFile="xmls/ProjectsGallery.xml";
   var xslFile="xsls/ProjectsGallery.xsl";
   var elemId="pjcts-gal";
-  transformXsl(xmlFile,xslFile,elemId);
+  xml = loadXMLDoc(xmlFile);
+  xsl = loadXMLDoc(xslFile);
+  transformXsl(xml,xsl,elemId);
   document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
   w3.styleElement(page, 'display', "block"); 
         filterSelection(sector); 
@@ -107,6 +107,7 @@ displayProject = function (elem) {
           var xmlFile="xmls/project-card.xml";
           var xslFile="xsls/project-card.xsl";
           var elemId="pjcts-gal"; 
+          xml = loadXMLDoc(xmlFile);
            /*transformXsl(xmlFile,xslFile,elemId);
   setTimeout(document.getElementById(elemId).appendChild(resultDocument),2000);
           document.querySelector('h1#sector-title').innerHTML= ""; 
