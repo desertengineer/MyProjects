@@ -36,23 +36,30 @@ fetchData=function (file) {
       //div.innerHTML=sessionStorage.filelData;
     });   
 }  
+
+  var xhttp;
 function loadXMLDoc(filename)
 {
-if (window.ActiveXObject)
-  {
-  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-  }
-else
-  {
-  xhttp = new XMLHttpRequest();
-  }
-xhttp.open("GET", filename, false);
-try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-xhttp.send();
+  if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+    xhttp=new XMLHttpRequest();
+    }
+  else
+    {// code for IE6, IE5
+      xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xhttp.onreadystatechange=function()
+    {
+    if (xhttp.readyState==4 && xhttp.status==200)
+      {
+      }
+    }
+    xhttp.open("GET",filename,false);
+    xhttp.send();
 return xhttp.responseXML;
 }
 
-function transformXsl(xmlFile,xslFile,elemId,param1){ 
+function transformXsl(xmlFile,xslFile,elemId){  
    document.querySelector('h1#sector-title').innerHTML="";
   document.getElementById(elemId).innerHTML= "";
   xml = loadXMLDoc(xmlFile);
@@ -86,7 +93,7 @@ getNavLink=function (elem, sector) {
   var xmlFile="xmls/ProjectsGallery.xml";
   var xslFile="xsls/ProjectsGallery.xsl";
   var elemId="pjcts-gal";
-  transformXsl(xmlFile,xslFile,elemId,'');
+  transformXsl(xmlFile,xslFile,elemId);
   document.querySelector('h1#sector-title').innerHTML= title+" projects gallery"; 
   w3.styleElement(page, 'display', "block"); 
         filterSelection(sector); 
@@ -100,7 +107,7 @@ displayProject = function (elem) {
           var xmlFile="xmls/project-card.xml";
           var xslFile="xsls/project-card.xsl";
           var elemId="pjcts-gal"; 
-           /*transformXsl(xmlFile,xslFile,elemId,elem.id);
+           /*transformXsl(xmlFile,xslFile,elemId);
   setTimeout(document.getElementById(elemId).appendChild(resultDocument),2000);
           document.querySelector('h1#sector-title').innerHTML= ""; 
    var div = document.getElementById("pjcts-gal");
