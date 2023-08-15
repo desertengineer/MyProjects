@@ -62,23 +62,17 @@ function transformXsl(xmlFile,xslFile,elemId,param1){
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
-    var template = new ActiveXObject('Msxml2.XslTemplate');
-    template.stylesheet = xslt;
-    var proc = template.createProcessor();
-    proc.input = xml;
-    proc.addParameter('projectId', param1);
-    proc.transform();
-    document.getElementById(elemId).innerHTML = proc.output;
+    ex = xml.transformNode(xsl); 
+    document.getElementById(elemId).innerHTML = ex;
 
   }
 // code for Chrome, Firefox, Opera, etc.
-else if (typeof XSLTProcessor !== 'undefined')
+else if (document.implementation && document.implementation.createDocument)
   {
-  var xsltProcessor = new XSLTProcessor();
-  xsltProcessor.importStylesheet(xsl); 
-  xsltProcessor.setParameter(null, "projectId", param1);  
-  var resultFragment = xsltProcessor.transformToFragment(xml, document);   
-  document.getElementById(elemId).appendChild(resultFragment);
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml, document);
+    document.getElementById(elemId).appendChild(resultDocument);
   }
 } 
 // to display requested page
@@ -106,10 +100,10 @@ displayProject = function (elem) {
           var xmlFile="xmls/project-card.xml";
           var xslFile="xsls/project-card.xsl";
           var elemId="pjcts-gal"; 
-          transformXsl(xmlFile,xslFile,elemId,elem.id);
+           /*transformXsl(xmlFile,xslFile,elemId,elem.id);
   setTimeout(document.getElementById(elemId).appendChild(resultDocument),2000);
           document.querySelector('h1#sector-title').innerHTML= ""; 
-    /*var div = document.getElementById("pjcts-gal");
+   var div = document.getElementById("pjcts-gal");
           document.querySelectorAll('#pjcts-gal a').forEach(occurence => {
           occurence.addEventListener('click', (e) => {
           let elementId = e.target.parentElement.id;
