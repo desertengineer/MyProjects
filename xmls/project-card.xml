@@ -4,14 +4,14 @@
 	<Project>
 		<Id>NLTC</Id>
 		<Title>Construction of National Legal Training Centre</Title>
-		<Visualization>../gifs/NLTC.gif</Visualization>
+		<Visualization>gifs/NLTC.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>360 Students</Capacity>
 		<Time>2021-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Provide Quality Education"</sdg1alt>
@@ -23,14 +23,14 @@
 	<Project>
 		<Id>Airport</Id>
 		<Title>Rehabilitation of Ubari Civil Airport’s taxiway and aircraft standing area</Title>
-		<Visualization>../gifs/Airport.gif</Visualization>
+		<Visualization>gifs/Airport.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>50,000 PA</Capacity>
 		<Time>2021-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 9.png"</sdg1img>
 		<sdg1alt>"Increase Industry, Innovation, and Infrastructure"</sdg1alt>
@@ -42,7 +42,7 @@
 	<Project>
 		<Id>SolPower</Id>
 		<Title>Supply and installation of 2 LOT Solar Power System in Municipality of Bent Baya</Title>
-		<Visualization>../gifs/SolPower.gif</Visualization>
+		<Visualization>gifs/SolPower.gif</Visualization>
 		<Location>Bent Baya, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>60 Beds</Capacity>
@@ -61,14 +61,14 @@
 	<Project>
 		<Id>PriSch01</Id>
 		<Title>Rehabilitation of Ubari, Municipality of Ubari Primary School</Title>
-		<Visualization>../gifs/PriSch01.gif</Visualization>
+		<Visualization>gifs/PriSch01.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>360 Pupils</Capacity>
 		<Time>2021-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Provide Quality Education"</sdg1alt>
@@ -80,14 +80,14 @@
 	<Project>
 		<Id>PriSch02</Id>
 		<Title>Rehabilitation of Aquba Ben Nafaa School </Title>
-		<Visualization>../gifs/PriSch02.gif</Visualization>
+		<Visualization>gifs/PriSch02.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>232 Pupils</Capacity>
 		<Time>2021-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Provide Quality Education"</sdg1alt>
@@ -99,14 +99,14 @@
 	<Project>
 		<Id>PriSch03</Id>
 		<Title>Rehabilitation of Disa School</Title>
-		<Visualization>../gifs/PriSch03.gif</Visualization>
+		<Visualization>gifs/PriSch03.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>475 Pupils</Capacity>
 		<Time>2021-2021</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Provide Quality Education"</sdg1alt>
@@ -118,14 +118,14 @@
 	<Project>
 		<Id>PriSch04</Id>
 		<Title>Rehabilitation of Gil Saade School</Title>
-		<Visualization>../gifs/PriSch04.gif</Visualization>
+		<Visualization>gifs/PriSch04.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>240 Pupils</Capacity>
 		<Time>2021-2021</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Provide Quality Education"</sdg1alt>
@@ -137,14 +137,14 @@
 	<Project>
 		<Id>RndAbout</Id>
 		<Title>Rehabilitation of Ubari Main Entrance Roundabout</Title>
-		<Visualization>../gifs/RndAbout.gif</Visualization>
+		<Visualization>gifs/RndAbout.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>N/A</Capacity>
 		<Time>2021-2021</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -156,14 +156,14 @@
 	<Project>
 		<Id>Recr01</Id>
 		<Title>Rehabilitation of Al Gurdhabia School - External Works</Title>
-		<Visualization>../gifs/Recr01.gif</Visualization>
+		<Visualization>gifs/Recr01.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>1753 Pupils</Capacity>
 		<Time>2021-2021</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -175,7 +175,7 @@
 	<Project>
 		<Id>Oxygen</Id>
 		<Title>Supply and Installation of Medical Oxygen Generator Plant for COVID-19 in Municipality of Bent Baya</Title>
-		<Visualization>../gifs/Oxygen.gif</Visualization>
+		<Visualization>gifs/Oxygen.gif</Visualization>
 		<Location>Bent Baya, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>60 Beds</Capacity>
@@ -194,14 +194,14 @@
 	<Project>
 		<Id>Recr02</Id>
 		<Title>Rehabilitation of Soccer Fields at Gil Saade and Al-Disa Primary Schools</Title>
-		<Visualization>../gifs/Recr02.gif</Visualization>
+		<Visualization>gifs/Recr02.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>574 Pupils</Capacity>
 		<Time>2021-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -213,14 +213,14 @@
 	<Project>
 		<Id>University</Id>
 		<Title>Rehabilitation of  Ubari University of Arts and Science in Municipality of Ubari</Title>
-		<Visualization>../gifs/University.gif</Visualization>
+		<Visualization>gifs/University.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>420 Students</Capacity>
 		<Time>2022-2022</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -232,14 +232,14 @@
 	<Project>
 		<Id>PrefabSch</Id>
 		<Title>Construction of four units of five classrooms prefab building</Title>
-		<Visualization>../gifs/PrefabSch.gif</Visualization>
+		<Visualization>gifs/PrefabSch.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>600 Pupils</Capacity>
 		<Time>2017-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -251,14 +251,14 @@
 	<Project>
 		<Id>PriSch05</Id>
 		<Title>Rehabilitation of Al-Qurania School </Title>
-		<Visualization>../gifs/PriSch05.gif</Visualization>
+		<Visualization>gifs/PriSch05.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>480 Pupils</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -270,14 +270,14 @@
 	<Project>
 		<Id>PriSch06</Id>
 		<Title>Rehabilitation of Al Markazeiha School </Title>
-		<Visualization>../gifs/PriSch06.gif</Visualization>
+		<Visualization>gifs/PriSch06.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>900 Pupils</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -289,14 +289,14 @@
 	<Project>
 		<Id>PriSch07</Id>
 		<Title>Rehabilitation of Al Thanwia School </Title>
-		<Visualization>../gifs/PriSch07.gif</Visualization>
+		<Visualization>gifs/PriSch07.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>720 Students</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 4.png"</sdg1img>
 		<sdg1alt>"Sustainable Development Goal 4"</sdg1alt>
@@ -308,14 +308,14 @@
 	<Project>
 		<Id>Hospital</Id>
 		<Title>Rehabilitation of Ubari General Hospital</Title>
-		<Visualization>../gifs/Hospital.gif</Visualization>
+		<Visualization>gifs/Hospital.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>120 Beds</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -327,14 +327,14 @@
 	<Project>
 		<Id>Market</Id>
 		<Title>Rehabilitation of Ubari Public Market </Title>
-		<Visualization>../gifs/Market.gif</Visualization>
+		<Visualization>gifs/Market.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>N/A</Capacity>
 		<Time>2017-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 8.png"</sdg1img>
 		<sdg1alt>"Create Decent Work and Economic Growth"</sdg1alt>
@@ -346,14 +346,14 @@
 	<Project>
 		<Id>Wom-Cen</Id>
 		<Title>Rehabilitation of Ubari Women's Center </Title>
-		<Visualization>../gifs/Wom-Cen.gif</Visualization>
+		<Visualization>gifs/Wom-Cen.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>150 women</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 5.png"</sdg1img>
 		<sdg1alt>"Enforce Gender Equality"</sdg1alt>
@@ -365,14 +365,14 @@
 	<Project>
 		<Id>Generator01</Id>
 		<Title>Construction of shed for Diesel Generator and connections in Ubari Medical Store</Title>
-		<Visualization>../gifs/Generator01.gif</Visualization>
+		<Visualization>gifs/Generator01.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>300 KVA</Capacity>
 		<Time>2018-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -384,14 +384,14 @@
 	<Project>
 		<Id>Generator02</Id>
 		<Title>Construction of shed for Diesel Generator and connections in Ubari General Hospital</Title>
-		<Visualization>../gifs/Generator02.gif</Visualization>
+		<Visualization>gifs/Generator02.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>300 KVA</Capacity>
 		<Time>2018-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -403,14 +403,14 @@
 	<Project>
 		<Id>Medical-Equip</Id>
 		<Title>Supply of Medical Equipment for Ubari General Hospital </Title>
-		<Visualization>../gifs/Medical-Equip.gif</Visualization>
+		<Visualization>gifs/Medical-Equip.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>120 Beds</Capacity>
 		<Time>2019-2019</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -422,14 +422,14 @@
 	<Project>
 		<Id>Ambulances</Id>
 		<Title>Supply of 2 Ambulances for Ubari General Hospital </Title>
-		<Visualization>../gifs/Ambulances.gif</Visualization>
+		<Visualization>gifs/Ambulances.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>N/A</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -441,14 +441,14 @@
 	<Project>
 		<Id>Generators</Id>
 		<Title>Supply of  2 (300 KVA) Generators for Ubari Health Sector </Title>
-		<Visualization>../gifs/Generators.gif</Visualization>
+		<Visualization>gifs/Generators.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>100,000 Citizens</Beneficiaries>
 		<Capacity>300 KVA</Capacity>
 		<Time>2018-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -460,14 +460,14 @@
 	<Project>
 		<Id>Garbage</Id>
 		<Title>Supply of 1 Large Garbage Truck </Title>
-		<Visualization>../gifs/Garbage.gif</Visualization>
+		<Visualization>gifs/Garbage.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
-		<Capacity>N/A</Capacity>
-		<Time>2019-2019</Time>
+		<Capacity>12 cubic meters</Capacity>
+		<Time>2019</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -479,14 +479,14 @@
 	<Project>
 		<Id>Training-equip</Id>
 		<Title>Supply of Training equipment for Women's Center </Title>
-		<Visualization>../gifs/Training-equip.gif</Visualization>
+		<Visualization>gifs/Training-equip.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>150 women</Capacity>
 		<Time>2018-2018</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 5.png"</sdg1img>
 		<sdg1alt>"Enforce Gender Equality"</sdg1alt>
@@ -498,14 +498,14 @@
 	<Project>
 		<Id>Pesticide</Id>
 		<Title>Supply of Pesticide Sprayer truck</Title>
-		<Visualization>../gifs/Pesticide.gif</Visualization>
+		<Visualization>gifs/Pesticide.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>N/A</Capacity>
 		<Time>2017-2017</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 3.png"</sdg1img>
 		<sdg1alt>"Establish Good Health and Well-Being"</sdg1alt>
@@ -517,14 +517,14 @@
 	<Project>
 		<Id>SolLigh</Id>
 		<Title>Rehabilitation of Obari Street Lightening Project</Title>
-		<Visualization>../gifs/SolLigh.gif</Visualization>
+		<Visualization>gifs/SolLigh.gif</Visualization>
 		<Location>Ubari, Libya</Location>
 		<Beneficiaries>30,000 Citizens</Beneficiaries>
 		<Capacity>N/A</Capacity>
 		<Time>2020-2020</Time>
 		<Status>Completed</Status>
 		<enduser>Municipality of Ubari</enduser>
-		<enduser_link>"https://m.facebook.com/100064771327032/"</enduser_link>
+		<enduser_link>https://m.facebook.com/100064771327032/</enduser_link>
 		<enduser_logo>images\Awbari1.jpg</enduser_logo>
 		<sdg1img>"images\sdgs\sdg 7.png"</sdg1img>
 		<sdg1alt>"Grow Affordable and Clean Energy"</sdg1alt>

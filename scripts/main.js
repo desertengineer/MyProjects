@@ -108,22 +108,20 @@ displayProject = function (elem) {
       var xslFile="xsls/project-card.xsl";
       xml = loadXMLDoc(xmlFile);
       xsl = loadXMLDoc(xslFile);
-      var elemId="pjcts-gal";  
-    var projectNode;
+      var elemId="pjcts-gal";   
     var  bound=xml.getElementsByTagName('Id').length;
-    var xml='<?xml version="1.0" encoding="utf-8"?>'+'<?xml-stylesheet type="text/xsl" href="../xsls/project-cards.xsl"?>'+ 
-            '<MyProjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">';
+    //var xmlnode='<?xml version="1.0" encoding="utf-8"?>'+'<?xml-stylesheet type="text/xsl" href="../xsls/project-cards.xsl"?>'+'<MyProjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">';
     for (let index = 0; index < bound; index++) {
       if (xml.getElementsByTagName('Id')[index].textContent==projectId) {
-        projectNode=xml.getElementsByTagName('Id')[index].parentElement;
-        xml+=projectNode.outerHTML+'</MyProjects>';
+       var  projectNode=xml.getElementsByTagName('Id')[index].parentElement;
+        //xmlnode+=projectNode.outerHTML+'</MyProjects>';
       } 
-      console.log(xml);
     }
-      
-    transformXsl(xml,xsl,elemId);
+      console.log(projectNode);
+  //xml=xmlnode;
+    transformXsl(projectNode,xsl,elemId);
     //setTimeout(document.getElementById(elemId).appendChild(resultDocument),2000);
-            document.querySelector('h1#sector-title').innerHTML= ""; 
+            document.querySelector('h1#sector-title').innerHTML= projectNode.getElementsByTagName('Title')[0].innerHTML; 
     /*var div = document.getElementById(elemId);
           document.querySelectorAll('#pjcts-gal a').forEach(occurence => {
           occurence.addEventListener('click', (e) => {
